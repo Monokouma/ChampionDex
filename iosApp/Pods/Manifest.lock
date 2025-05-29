@@ -1,0 +1,23 @@
+PODS:
+  - shared (1.0)
+  - Swinject (2.9.1)
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+  - Swinject
+
+SPEC REPOS:
+  trunk:
+    - Swinject
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  shared: f1a46a4332194fe48f7877d84ab7c8813f1b956c
+  Swinject: a827d508c6270da03ec74e558e728917a888fa9b
+
+PODFILE CHECKSUM: fe2c08cdf9877f2121e8519a066e8f2821f17704
+
+COCOAPODS: 1.16.2

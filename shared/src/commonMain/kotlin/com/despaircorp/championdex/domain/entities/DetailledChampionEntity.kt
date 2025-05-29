@@ -1,0 +1,70 @@
+package com.despaircorp.championdex.domain.entities
+
+data class DetailledChampionEntity(
+    val id: String,
+    val key: String,
+    val name: String,
+    val title: String,
+    val imageUrl: String,
+    val lore: String,
+    val blurb: String,
+    val tags: List<String>,
+    val partype: String,
+    val attackRating: Int,
+    val defenseRating: Int,
+    val magicRating: Int,
+    val difficultyRating: Int,
+    val hp: Double,
+    val hpperlevel: Double,
+    val mp: Double,
+    val mpperlevel: Double,
+    val movespeed: Double,
+    val armor: Double,
+    val armorperlevel: Double,
+    val spellblock: Double,
+    val spellblockperlevel: Double,
+    val attackrange: Double,
+    val hpregen: Double,
+    val hpregenperlevel: Double,
+    val mpregen: Double,
+    val mpregenperlevel: Double,
+    val crit: Double,
+    val critperlevel: Double,
+    val attackdamage: Double,
+    val attackdamageperlevel: Double,
+    val attackspeedperlevel: Double,
+    val attackspeed: Double,
+    val passiveName: String,
+    val passiveDescription: String,
+    val passiveImageUrl: String,
+    val spells: List<SpellEntity>,
+    val skins: List<SkinEntity>,
+    val allytips: List<String>,
+    val enemytips: List<String>
+)
+
+data class SpellEntity(
+    val id: String,
+    val name: String,
+    val description: String,
+    val tooltip: String,
+    val maxrank: Int,
+    val cooldown: List<Double>,
+    val cooldownBurn: String,
+    val cost: List<Double>,
+    val costBurn: String,
+    val costType: String,
+    val range: List<Double>,
+    val rangeBurn: String,
+    val imageUrl: String,
+    val resource: String
+)
+
+data class SkinEntity(
+    val id: String,
+    val num: Int,
+    val name: String,
+    val chromas: Boolean,
+    val splashUrl: String,
+    val loadingUrl: String
+)

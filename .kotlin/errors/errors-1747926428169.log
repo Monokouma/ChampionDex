@@ -1,0 +1,474 @@
+kotlin version: 2.0.0
+error message: org.jetbrains.kotlin.backend.common.CompilationException: Back-end: Please report this problem https://kotl.in/issue
+/Users/monokouma/Documents/ChampionDex/shared/src/commonMain/kotlin/com/despaircorp/championdex/data/dto/ChampionResponse.kt:58:1
+Problem with `@Serializable
+data class Stats {
+  constructor(mpregen: Any? = null, attackdamageperlevel: Any? = null, mp: Int? = null, attackrange: Int? = null, hpperlevel: Int? = null, hp: Int? = null, hpregen: Any? = null, mpregenperlevel: Any? = null, spellblock: Int? = null, critperlevel: Int? = null, movespeed: Int? = null, mpperlevel: Int? = null, armor: Int? = null, armorperlevel: Any? = null, crit: Int? = null, attackdamage: Int? = null, attackspeed: Any? = null, spellblockperlevel: Any? = null, attackspeedperlevel: Any? = null, hpregenperlevel: Any? = null) /* primary */ {
+    super/*Any*/()
+    /* <init>() */
+
+  }
+
+  @Contextual
+  @SerialName(value = "mpregen")
+  val mpregen: Any?
+    field = mpregen
+    get
+
+  @SerialName(value = "attackdamageperlevel")
+  val attackdamageperlevel: Any?
+    field = attackdamageperlevel
+    get
+
+  @SerialName(value = "mp")
+  val mp: Int?
+    field = mp
+    get
+
+  @SerialName(value = "attackrange")
+  val attackrange: Int?
+    field = attackrange
+    get
+
+  @SerialName(value = "hpperlevel")
+  val hpperlevel: Int?
+    field = hpperlevel
+    get
+
+  @SerialName(value = "hp")
+  val hp: Int?
+    field = hp
+    get
+
+  @SerialName(value = "hpregen")
+  val hpregen: Any?
+    field = hpregen
+    get
+
+  @SerialName(value = "mpregenperlevel")
+  val mpregenperlevel: Any?
+    field = mpregenperlevel
+    get
+
+  @SerialName(value = "spellblock")
+  val spellblock: Int?
+    field = spellblock
+    get
+
+  @SerialName(value = "critperlevel")
+  val critperlevel: Int?
+    field = critperlevel
+    get
+
+  @SerialName(value = "movespeed")
+  val movespeed: Int?
+    field = movespeed
+    get
+
+  @SerialName(value = "mpperlevel")
+  val mpperlevel: Int?
+    field = mpperlevel
+    get
+
+  @SerialName(value = "armor")
+  val armor: Int?
+    field = armor
+    get
+
+  @SerialName(value = "armorperlevel")
+  val armorperlevel: Any?
+    field = armorperlevel
+    get
+
+  @SerialName(value = "crit")
+  val crit: Int?
+    field = crit
+    get
+
+  @SerialName(value = "attackdamage")
+  val attackdamage: Int?
+    field = attackdamage
+    get
+
+  @SerialName(value = "attackspeed")
+  val attackspeed: Any?
+    field = attackspeed
+    get
+
+  @SerialName(value = "spellblockperlevel")
+  val spellblockperlevel: Any?
+    field = spellblockperlevel
+    get
+
+  @SerialName(value = "attackspeedperlevel")
+  val attackspeedperlevel: Any?
+    field = attackspeedperlevel
+    get
+
+  @SerialName(value = "hpregenperlevel")
+  val hpregenperlevel: Any?
+    field = hpregenperlevel
+    get
+
+  companion object Companion {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    fun serializer(): KSerializer<Stats>
+
+    /* fake */ override operator fun equals(other: Any?): Boolean
+
+    /* fake */ override fun hashCode(): Int
+
+    /* fake */ override fun toString(): String
+
+  }
+
+  @Deprecated(message = "This synthesized declaration should not be used directly", level = DeprecationLevel.HIDDEN)
+  object $serializer : GeneratedSerializer<Stats> {
+    private constructor() /* primary */ {
+      super/*Any*/()
+      /* <init>() */
+
+    }
+
+    override fun serialize(encoder: Encoder, value: Stats)
+
+    override fun deserialize(decoder: Decoder): Stats
+
+    override val descriptor: SerialDescriptor
+      override get
+
+    override fun childSerializers(): Array<KSerializer<*>>
+
+    /* fake */ override fun typeParametersSerializers(): Array<KSerializer<*>>
+
+    /* fake */ override operator fun equals(other: Any?): Boolean
+
+    /* fake */ override fun hashCode(): Int
+
+    /* fake */ override fun toString(): String
+
+  }
+
+  operator fun component1(): Any? {
+    return <this>.#mpregen
+  }
+
+  operator fun component2(): Any? {
+    return <this>.#attackdamageperlevel
+  }
+
+  operator fun component3(): Int? {
+    return <this>.#mp
+  }
+
+  operator fun component4(): Int? {
+    return <this>.#attackrange
+  }
+
+  operator fun component5(): Int? {
+    return <this>.#hpperlevel
+  }
+
+  operator fun component6(): Int? {
+    return <this>.#hp
+  }
+
+  operator fun component7(): Any? {
+    return <this>.#hpregen
+  }
+
+  operator fun component8(): Any? {
+    return <this>.#mpregenperlevel
+  }
+
+  operator fun component9(): Int? {
+    return <this>.#spellblock
+  }
+
+  operator fun component10(): Int? {
+    return <this>.#critperlevel
+  }
+
+  operator fun component11(): Int? {
+    return <this>.#movespeed
+  }
+
+  operator fun component12(): Int? {
+    return <this>.#mpperlevel
+  }
+
+  operator fun component13(): Int? {
+    return <this>.#armor
+  }
+
+  operator fun component14(): Any? {
+    return <this>.#armorperlevel
+  }
+
+  operator fun component15(): Int? {
+    return <this>.#crit
+  }
+
+  operator fun component16(): Int? {
+    return <this>.#attackdamage
+  }
+
+  operator fun component17(): Any? {
+    return <this>.#attackspeed
+  }
+
+  operator fun component18(): Any? {
+    return <this>.#spellblockperlevel
+  }
+
+  operator fun component19(): Any? {
+    return <this>.#attackspeedperlevel
+  }
+
+  operator fun component20(): Any? {
+    return <this>.#hpregenperlevel
+  }
+
+  fun copy(mpregen: Any? = <this>.#mpregen, attackdamageperlevel: Any? = <this>.#attackdamageperlevel, mp: Int? = <this>.#mp, attackrange: Int? = <this>.#attackrange, hpperlevel: Int? = <this>.#hpperlevel, hp: Int? = <this>.#hp, hpregen: Any? = <this>.#hpregen, mpregenperlevel: Any? = <this>.#mpregenperlevel, spellblock: Int? = <this>.#spellblock, critperlevel: Int? = <this>.#critperlevel, movespeed: Int? = <this>.#movespeed, mpperlevel: Int? = <this>.#mpperlevel, armor: Int? = <this>.#armor, armorperlevel: Any? = <this>.#armorperlevel, crit: Int? = <this>.#crit, attackdamage: Int? = <this>.#attackdamage, attackspeed: Any? = <this>.#attackspeed, spellblockperlevel: Any? = <this>.#spellblockperlevel, attackspeedperlevel: Any? = <this>.#attackspeedperlevel, hpregenperlevel: Any? = <this>.#hpregenperlevel): Stats {
+    return Stats(mpregen = mpregen, attackdamageperlevel = attackdamageperlevel, mp = mp, attackrange = attackrange, hpperlevel = hpperlevel, hp = hp, hpregen = hpregen, mpregenperlevel = mpregenperlevel, spellblock = spellblock, critperlevel = critperlevel, movespeed = movespeed, mpperlevel = mpperlevel, armor = armor, armorperlevel = armorperlevel, crit = crit, attackdamage = attackdamage, attackspeed = attackspeed, spellblockperlevel = spellblockperlevel, attackspeedperlevel = attackspeedperlevel, hpregenperlevel = hpregenperlevel)
+  }
+
+  override fun toString(): String {
+    return "Stats(" + "mpregen=" + <this>.#mpregen + ", " + "attackdamageperlevel=" + <this>.#attackdamageperlevel + ", " + "mp=" + <this>.#mp + ", " + "attackrange=" + <this>.#attackrange + ", " + "hpperlevel=" + <this>.#hpperlevel + ", " + "hp=" + <this>.#hp + ", " + "hpregen=" + <this>.#hpregen + ", " + "mpregenperlevel=" + <this>.#mpregenperlevel + ", " + "spellblock=" + <this>.#spellblock + ", " + "critperlevel=" + <this>.#critperlevel + ", " + "movespeed=" + <this>.#movespeed + ", " + "mpperlevel=" + <this>.#mpperlevel + ", " + "armor=" + <this>.#armor + ", " + "armorperlevel=" + <this>.#armorperlevel + ", " + "crit=" + <this>.#crit + ", " + "attackdamage=" + <this>.#attackdamage + ", " + "attackspeed=" + <this>.#attackspeed + ", " + "spellblockperlevel=" + <this>.#spellblockperlevel + ", " + "attackspeedperlevel=" + <this>.#attackspeedperlevel + ", " + "hpregenperlevel=" + <this>.#hpregenperlevel + ")"
+  }
+
+  override fun hashCode(): Int {
+    var result: Int = when {
+      EQEQ(arg0 = <this>.#mpregen, arg1 = null) -> 0
+      else -> <this>.#mpregen.hashCode()
+    }
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#attackdamageperlevel, arg1 = null) -> 0
+      else -> <this>.#attackdamageperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#mp, arg1 = null) -> 0
+      else -> <this>.#mp.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#attackrange, arg1 = null) -> 0
+      else -> <this>.#attackrange.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#hpperlevel, arg1 = null) -> 0
+      else -> <this>.#hpperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#hp, arg1 = null) -> 0
+      else -> <this>.#hp.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#hpregen, arg1 = null) -> 0
+      else -> <this>.#hpregen.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#mpregenperlevel, arg1 = null) -> 0
+      else -> <this>.#mpregenperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#spellblock, arg1 = null) -> 0
+      else -> <this>.#spellblock.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#critperlevel, arg1 = null) -> 0
+      else -> <this>.#critperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#movespeed, arg1 = null) -> 0
+      else -> <this>.#movespeed.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#mpperlevel, arg1 = null) -> 0
+      else -> <this>.#mpperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#armor, arg1 = null) -> 0
+      else -> <this>.#armor.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#armorperlevel, arg1 = null) -> 0
+      else -> <this>.#armorperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#crit, arg1 = null) -> 0
+      else -> <this>.#crit.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#attackdamage, arg1 = null) -> 0
+      else -> <this>.#attackdamage.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#attackspeed, arg1 = null) -> 0
+      else -> <this>.#attackspeed.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#spellblockperlevel, arg1 = null) -> 0
+      else -> <this>.#spellblockperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#attackspeedperlevel, arg1 = null) -> 0
+      else -> <this>.#attackspeedperlevel.hashCode()
+    })
+    result = result.times(other = 31).plus(other = when {
+      EQEQ(arg0 = <this>.#hpregenperlevel, arg1 = null) -> 0
+      else -> <this>.#hpregenperlevel.hashCode()
+    })
+    return result
+  }
+
+  override operator fun equals(other: Any?): Boolean {
+    when {
+      EQEQEQ(arg0 = <this>, arg1 = other) -> return true
+    }
+    when {
+      other !is Stats -> return false
+    }
+    val tmp0_other_with_cast: Stats = other as Stats
+    when {
+      EQEQ(arg0 = <this>.#mpregen, arg1 = tmp0_other_with_cast.#mpregen).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#attackdamageperlevel, arg1 = tmp0_other_with_cast.#attackdamageperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#mp, arg1 = tmp0_other_with_cast.#mp).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#attackrange, arg1 = tmp0_other_with_cast.#attackrange).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#hpperlevel, arg1 = tmp0_other_with_cast.#hpperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#hp, arg1 = tmp0_other_with_cast.#hp).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#hpregen, arg1 = tmp0_other_with_cast.#hpregen).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#mpregenperlevel, arg1 = tmp0_other_with_cast.#mpregenperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#spellblock, arg1 = tmp0_other_with_cast.#spellblock).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#critperlevel, arg1 = tmp0_other_with_cast.#critperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#movespeed, arg1 = tmp0_other_with_cast.#movespeed).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#mpperlevel, arg1 = tmp0_other_with_cast.#mpperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#armor, arg1 = tmp0_other_with_cast.#armor).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#armorperlevel, arg1 = tmp0_other_with_cast.#armorperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#crit, arg1 = tmp0_other_with_cast.#crit).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#attackdamage, arg1 = tmp0_other_with_cast.#attackdamage).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#attackspeed, arg1 = tmp0_other_with_cast.#attackspeed).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#spellblockperlevel, arg1 = tmp0_other_with_cast.#spellblockperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#attackspeedperlevel, arg1 = tmp0_other_with_cast.#attackspeedperlevel).not() -> return false
+    }
+    when {
+      EQEQ(arg0 = <this>.#hpregenperlevel, arg1 = tmp0_other_with_cast.#hpregenperlevel).not() -> return false
+    }
+    return true
+  }
+
+  @JvmStatic
+  internal fun write$Self(self: Stats, output: CompositeEncoder, serialDesc: SerialDescriptor)
+
+  internal constructor(seen0: Int, mpregen: Any?, attackdamageperlevel: Any?, mp: Int?, attackrange: Int?, hpperlevel: Int?, hp: Int?, hpregen: Any?, mpregenperlevel: Any?, spellblock: Int?, critperlevel: Int?, movespeed: Int?, mpperlevel: Int?, armor: Int?, armorperlevel: Any?, crit: Int?, attackdamage: Int?, attackspeed: Any?, spellblockperlevel: Any?, attackspeedperlevel: Any?, hpregenperlevel: Any?, serializationConstructorMarker: SerializationConstructorMarker?)
+
+}
+
+`
+Details: kotlinx.serialization compiler plugin internal error: unable to transform declaration, see cause
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializerClassLowering.lower(SerializationLoweringExtension.kt:228)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitClass(SerializationLoweringExtension.kt:46)
+	at org.jetbrains.kotlin.ir.visitors.IrElementVisitorVoid$DefaultImpls.visitClass(IrElementVisitorVoid.kt:44)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitClass(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitClass(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlin.ir.declarations.IrClass.accept(IrClass.kt:72)
+	at org.jetbrains.kotlin.ir.declarations.IrFile.acceptChildren(IrFile.kt:34)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorsKt.acceptChildrenVoid(IrVisitors.kt:15)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitElement(SerializationLoweringExtension.kt:42)
+	at org.jetbrains.kotlin.ir.visitors.IrElementVisitorVoid$DefaultImpls.visitPackageFragment(IrElementVisitorVoid.kt:168)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitPackageFragment(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlin.ir.visitors.IrElementVisitorVoid$DefaultImpls.visitFile(IrElementVisitorVoid.kt:184)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitFile(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlin.ir.visitors.IrElementVisitorVoid$DefaultImpls.visitFile(IrElementVisitorVoid.kt:180)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitFile(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt$runOnFileInOrder$1.visitFile(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlin.ir.declarations.IrFile.accept(IrFile.kt:28)
+	at org.jetbrains.kotlin.ir.visitors.IrVisitorsKt.acceptVoid(IrVisitors.kt:11)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtensionKt.runOnFileInOrder(SerializationLoweringExtension.kt:40)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializationLoweringExtension.generate(SerializationLoweringExtension.kt:193)
+	at org.jetbrains.kotlin.fir.pipeline.ConvertToIrKt.applyIrGenerationExtensions(convertToIr.kt:260)
+	at org.jetbrains.kotlin.fir.pipeline.ConvertToIrKt.convertToIrAndActualize(convertToIr.kt:139)
+	at org.jetbrains.kotlin.fir.pipeline.ConvertToIrKt.convertToIrAndActualize$default(convertToIr.kt:65)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.convertToIrAndActualizeForJvm(jvmCompilerPipeline.kt:193)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.convertAnalyzedFirToIr(jvmCompilerPipeline.kt:167)
+	at org.jetbrains.kotlin.cli.jvm.compiler.pipeline.JvmCompilerPipelineKt.compileModulesUsingFrontendIrAndLightTree(jvmCompilerPipeline.kt:138)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:155)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:50)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:104)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:48)
+	at org.jetbrains.kotlin.cli.common.CLITool.exec(CLITool.kt:101)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:453)
+	at org.jetbrains.kotlin.incremental.IncrementalJvmCompilerRunner.runCompiler(IncrementalJvmCompilerRunner.kt:62)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.doCompile(IncrementalCompilerRunner.kt:506)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileImpl(IncrementalCompilerRunner.kt:423)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileNonIncrementally(IncrementalCompilerRunner.kt:301)
+	at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compile(IncrementalCompilerRunner.kt:129)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.execIncrementalCompiler(CompileServiceImpl.kt:676)
+	at org.jetbrains.kotlin.daemon.CompileServiceImplBase.access$execIncrementalCompiler(CompileServiceImpl.kt:92)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1661)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Serializer for element of type kotlin.Any? has not been found
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.SerializerSearchUtilKt.findTypeSerializerOrContext(SerializerSearchUtil.kt:84)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.SerializerSearchUtilKt.getIrSerialTypeInfo(SerializerSearchUtil.kt:63)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.BaseIrGenerator.cacheableChildSerializerInstance(BaseIrGenerator.kt:486)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.BaseIrGenerator.createCachedChildSerializers(BaseIrGenerator.kt:467)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.SerializableIrGenerator.<init>(SerializableIrGenerator.kt:59)
+	at org.jetbrains.kotlinx.serialization.compiler.backend.ir.SerializableIrGenerator$Companion.generate(SerializableIrGenerator.kt:398)
+	at org.jetbrains.kotlinx.serialization.compiler.extensions.SerializerClassLowering.lower(SerializationLoweringExtension.kt:145)
+	... 54 more
+
+
